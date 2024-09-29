@@ -7,9 +7,14 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ['Schibsted Grotesk', 'sans-serif'],
+      },
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        brand: {
+          DEFAULT: "#155EEF",              // Cor principal da marca
+          darker: "#162555",               // Versão mais escura da cor
+        },
       },
     },
   },
